@@ -127,6 +127,15 @@ Then authorize the connection when Cursor prompts you.
 | `reshare_member_post` | Reshare a post as the authenticated member |
 | `reshare_organization_post` | Reshare an existing post on behalf of the organization |
 
+## Control What Your AI Can Do
+
+You decide what AI agents can do with each connected account:
+
+- **Turn individual actions on or off** for every connected account, so agents only see the actions you allow.
+- **Connect as Read-only or Read & Write.** A read-only connection can only enable read actions.
+- **Destructive actions stay off by default.** Actions such as deletes are disabled until an admin enables them.
+- **Team access per account.** Restricted team members only use the accounts they are granted, with the read actions enabled on them.
+
 ## Usage Examples
 
 ```
@@ -140,6 +149,10 @@ Then authorize the connection when Cursor prompts you.
 ```
 "Publish a post on our company page announcing our new webinar"
 ```
+
+## Ready-Made Skills and Prompts
+
+- [Claude skills for LinkedIn](https://insightfulpipe.com/marketing-claude-skills/linkedin-ads) — ready-made skills that run on your connected data
 
 ## Explore More MCP Servers by Insightful Pipe
 
