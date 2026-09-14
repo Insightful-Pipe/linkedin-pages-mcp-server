@@ -150,6 +150,10 @@ You decide what AI agents can do with each connected account:
 "Publish a post on our company page announcing our new webinar"
 ```
 
+## Pricing
+
+The LinkedIn Page & Profile MCP server is included in every InsightfulPipe plan, together with all other MCP servers and the CLI. Plans start at $29.99/month with a 7-day free trial. See [insightfulpipe.com/pricing](https://insightfulpipe.com/pricing) for current plans.
+
 ## Ready-Made Skills and Prompts
 
 - [Claude skills for LinkedIn](https://insightfulpipe.com/marketing-claude-skills/linkedin-ads) — ready-made skills that run on your connected data
