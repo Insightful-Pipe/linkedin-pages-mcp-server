@@ -64,12 +64,12 @@ When Cursor shows **Needs authentication**, click **Connect** and sign in to Ins
 
 ## Available Actions
 
-45 actions: 30 read, 15 write.
+38 actions: 27 read, 11 write.
 
-### Read Actions (30)
+### Read Actions (27)
 
 <details>
-<summary>Show all 30 read actions</summary>
+<summary>Show all 27 read actions</summary>
 
 | Action | Description |
 |--------|-------------|
@@ -97,16 +97,13 @@ When Cursor shows **Needs authentication**, click **Connect** and sign in to Ins
 | `fetch_share_statistics_time_bound` | Fetch engagement metrics over time, daily or monthly |
 | `fetch_social_metadata` | Fetch reaction breakdown (LIKE, PRAISE, EMPATHY, etc.) and comment counts for a post |
 | `fetch_total_follower_count` | Fetch total follower count for the organization |
-| `get_document_status` | Fetch processing status for an initialized document |
-| `get_image_status` | Fetch processing status for an initialized image |
 | `get_post_social_actions` | Get summary of likes, comments, shares for a post |
-| `get_video_status` | Fetch processing status for an initialized or finalized video |
 | `search_organization_by_vanity_name` | Search for an organization by its vanity name (URL slug, e.g. "insightful-pipe") |
 | `search_organization_followers` | Typeahead search through the organization's followers |
 
 </details>
 
-### Write Actions (15)
+### Write Actions (11)
 
 | Action | Description |
 |--------|-------------|
@@ -119,10 +116,6 @@ When Cursor shows **Needs authentication**, click **Connect** and sign in to Ins
 | `delete_member_post` | Delete a member's post |
 | `delete_organization_post` | Delete an organization post |
 | `delete_reaction` | Remove a reaction from a post |
-| `finalize_video_upload` | Finalize a video upload after all chunks are uploaded |
-| `initialize_document_upload` | Initialize a document/PDF upload (for carousels) |
-| `initialize_image_upload` | Initialize an image upload |
-| `initialize_video_upload` | Initialize a video upload |
 | `reshare_member_post` | Reshare a post as the authenticated member |
 | `reshare_organization_post` | Reshare an existing post on behalf of the organization |
 
